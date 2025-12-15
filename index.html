@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ORSIF - Occupational Radiation Safety Information Framework</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav class="main-nav">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <span class="logo-text">ORSIF</span>
+                <span class="logo-subtitle">Radiation Safety Guide</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="states.html">Find Your State</a></li>
+                <li><a href="hierarchy.html">Regulatory Hierarchy</a></li>
+                <li><a href="resources.html">Resources &amp; PDFs</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <h1>Occupational Radiation Safety<br><span class="highlight">Information Framework</span></h1>
+                <p class="hero-subtitle">A comprehensive guide to radiation protection regulations for healthcare workers in fluoroscopy labs across the United States</p>
+                <div class="hero-actions">
+                    <a href="states.html" class="btn btn-primary">Find Your State's Regulations</a>
+                    <a href="hierarchy.html" class="btn btn-secondary">Explore the Hierarchy</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hierarchy Overview -->
+        <section class="hierarchy-overview">
+            <div class="container">
+                <h2>Understanding the Regulatory Hierarchy</h2>
+                <p class="section-intro">Radiation safety for healthcare workers is governed by multiple overlapping levels of authority. Understanding who regulates what helps ensure compliance.</p>
+
+                <div class="hierarchy-visual">
+                    <div class="hierarchy-level level-federal" onclick="location.href='hierarchy.html#federal'">
+                        <div class="level-icon">1</div>
+                        <div class="level-content">
+                            <h3>Federal Regulatory</h3>
+                            <p>OSHA, NRC, FDA, CDC/NIOSH</p>
+                            <span class="level-detail">National laws and dose limits</span>
+                        </div>
+                    </div>
+
+                    <div class="hierarchy-connector"></div>
+
+                    <div class="hierarchy-level level-state" onclick="location.href='states.html'">
+                        <div class="level-icon">2</div>
+                        <div class="level-content">
+                            <h3>State Regulatory</h3>
+                            <p>State Health Departments, Agreement States</p>
+                            <span class="level-detail">State-specific licensing &amp; requirements</span>
+                        </div>
+                    </div>
+
+                    <div class="hierarchy-connector"></div>
+
+                    <div class="hierarchy-level level-accreditation" onclick="location.href='hierarchy.html#accreditation'">
+                        <div class="level-icon">3</div>
+                        <div class="level-content">
+                            <h3>Accreditation</h3>
+                            <p>Joint Commission, ACR, CAMPEP, ACRO</p>
+                            <span class="level-detail">Hospital &amp; facility standards</span>
+                        </div>
+                    </div>
+
+                    <div class="hierarchy-connector"></div>
+
+                    <div class="hierarchy-level level-professional" onclick="location.href='hierarchy.html#professional'">
+                        <div class="level-icon">4</div>
+                        <div class="level-content">
+                            <h3>Professional Guidance</h3>
+                            <p>AAPM, ACR, ASRT, HPS, SIR, SCAI, and more</p>
+                            <span class="level-detail">Best practices &amp; guidelines</span>
+                        </div>
+                    </div>
+
+                    <div class="hierarchy-connector"></div>
+
+                    <div class="hierarchy-level level-institutional" onclick="location.href='hierarchy.html#institutional'">
+                        <div class="level-icon">5</div>
+                        <div class="level-content">
+                            <h3>Institutional</h3>
+                            <p>Radiation Safety Officer, Radiation Safety Committee</p>
+                            <span class="level-detail">Hospital policies &amp; procedures</span>
+                        </div>
+                    </div>
+
+                    <div class="hierarchy-connector"></div>
+
+                    <div class="hierarchy-level level-individual" onclick="location.href='hierarchy.html#individual'">
+                        <div class="level-icon">6</div>
+                        <div class="level-content">
+                            <h3>Individual Worker</h3>
+                            <p>Personal dosimetry, PPE, training</p>
+                            <span class="level-detail">Your daily responsibilities</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dose Limits Quick Reference -->
+        <section class="dose-limits">
+            <div class="container">
+                <h2>Dose Limits Quick Reference</h2>
+                <p class="section-intro">Compare occupational radiation dose limits across regulatory authorities</p>
+
+                <div class="table-wrapper">
+                    <table class="dose-table">
+                        <thead>
+                            <tr>
+                                <th>Authority</th>
+                                <th>Whole Body (Annual)</th>
+                                <th>Eye Lens (Annual)</th>
+                                <th>Extremities (Annual)</th>
+                                <th>Pregnant Worker</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>OSHA</strong><br><small>29 CFR 1910.1096</small></td>
+                                <td>5 rem (50 mSv)</td>
+                                <td>1.25 rem/quarter</td>
+                                <td>18.75 rem/quarter</td>
+                                <td>N/A</td>
+                            </tr>
+                            <tr>
+                                <td><strong>NRC</strong><br><small>10 CFR Part 20</small></td>
+                                <td>5 rem (50 mSv)</td>
+                                <td>15 rem (150 mSv)</td>
+                                <td>50 rem (500 mSv)</td>
+                                <td>0.5 rem total</td>
+                            </tr>
+                            <tr>
+                                <td><strong>ICRP</strong><br><small>Current Recommendations</small></td>
+                                <td>20 mSv/yr avg</td>
+                                <td>20 mSv/yr avg</td>
+                                <td>500 mSv</td>
+                                <td>1 mSv after declaration</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p class="table-note">Note: Always follow the most restrictive applicable limit. State regulations may differ.</p>
+            </div>
+        </section>
+
+        <!-- Quick Links -->
+        <section class="quick-links">
+            <div class="container">
+                <h2>Quick Access</h2>
+                <div class="links-grid">
+                    <a href="states.html" class="quick-link-card">
+                        <div class="card-icon">&#127463;&#127480;</div>
+                        <h3>State Regulations</h3>
+                        <p>Find regulations, contacts, and requirements for your state</p>
+                    </a>
+
+                    <a href="resources.html" class="quick-link-card">
+                        <div class="card-icon">&#128196;</div>
+                        <h3>PDF Library</h3>
+                        <p>Download guidance documents, manuals, and training materials</p>
+                    </a>
+
+                    <a href="hierarchy.html#federal" class="quick-link-card">
+                        <div class="card-icon">&#127970;</div>
+                        <h3>Federal Agencies</h3>
+                        <p>OSHA, NRC, FDA regulations and requirements</p>
+                    </a>
+
+                    <a href="hierarchy.html#professional" class="quick-link-card">
+                        <div class="card-icon">&#128101;</div>
+                        <h3>Professional Organizations</h3>
+                        <p>Guidelines from AAPM, ACR, ASRT, and other societies</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Who This Is For -->
+        <section class="audience">
+            <div class="container">
+                <h2>Who This Guide Is For</h2>
+                <div class="audience-grid">
+                    <div class="audience-card">
+                        <h3>Physicians</h3>
+                        <p>Interventional cardiologists, radiologists, and other physicians performing fluoroscopy-guided procedures</p>
+                    </div>
+                    <div class="audience-card">
+                        <h3>Radiologic Technologists</h3>
+                        <p>RTs and imaging professionals working in fluoroscopy suites, cath labs, and interventional radiology</p>
+                    </div>
+                    <div class="audience-card">
+                        <h3>Nurses</h3>
+                        <p>Perioperative and cath lab nurses present during fluoroscopic procedures</p>
+                    </div>
+                    <div class="audience-card">
+                        <h3>Radiation Safety Officers</h3>
+                        <p>RSOs responsible for institutional radiation safety programs and compliance</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>ORSIF</h4>
+                    <p>Occupational Radiation Safety Information Framework - A comprehensive resource for healthcare workers in fluoroscopy.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Key Resources</h4>
+                    <ul>
+                        <li><a href="https://www.crcpd.org/mpage/StateContactDirector" target="_blank">CRCPD State Directory</a></li>
+                        <li><a href="https://www.osha.gov/ionizing-radiation" target="_blank">OSHA Ionizing Radiation</a></li>
+                        <li><a href="https://www.nrc.gov/reading-rm/doc-collections/cfr/part020/" target="_blank">NRC 10 CFR Part 20</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Disclaimer</h4>
+                    <p><small>This resource is for informational purposes only. Always verify current regulations with official sources and consult your institution's Radiation Safety Officer.</small></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 ORSIF. Information compiled from public sources.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

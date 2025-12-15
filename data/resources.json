@@ -1,0 +1,382 @@
+{
+  "categories": [
+    {"id": "federal", "name": "Federal/National", "color": "#c0392b"},
+    {"id": "state", "name": "State Regulations", "color": "#2980b9"},
+    {"id": "hospital", "name": "Hospital/University Manuals", "color": "#8e44ad"},
+    {"id": "training", "name": "Training/Educational", "color": "#27ae60"},
+    {"id": "epa", "name": "EPA", "color": "#f39c12"},
+    {"id": "ssrcr", "name": "SSRCR", "color": "#1abc9c"}
+  ],
+  "resources": [
+    {
+      "id": "aapm-report-58",
+      "title": "AAPM Report 58 - Managing the Use of Fluoroscopy in Medical Institutions",
+      "organization": "AAPM",
+      "category": "federal",
+      "description": "Comprehensive guidance on establishing and managing fluoroscopy programs in healthcare settings.",
+      "file": "Federal_National/AAPM_Report_58_Managing_Fluoroscopy.pdf",
+      "externalUrl": "https://www.aapm.org/pubs/reports/RPT_58.pdf",
+      "tags": ["fluoroscopy", "management", "AAPM", "guidelines"]
+    },
+    {
+      "id": "aapm-report-25",
+      "title": "AAPM Report 25 - Radiation Safety Surveys",
+      "organization": "AAPM",
+      "category": "federal",
+      "description": "Guidelines for conducting radiation safety surveys in medical facilities.",
+      "file": "Federal_National/AAPM_Report_25_Radiation_Safety_Surveys.pdf",
+      "externalUrl": "https://www.aapm.org/pubs/reports/RPT_25.pdf",
+      "tags": ["surveys", "safety", "AAPM"]
+    },
+    {
+      "id": "aapm-personnel-protection",
+      "title": "AAPM Personnel Protection During Fluoroscopy",
+      "organization": "AAPM",
+      "category": "federal",
+      "description": "Best practices for protecting personnel during fluoroscopic procedures.",
+      "file": "Federal_National/AAPM_Personnel_Protection_Fluoroscopy.pdf",
+      "externalUrl": "https://www.aapm.org/meetings/amos2/pdf/59-17251-24323-282.pdf",
+      "tags": ["personnel", "protection", "fluoroscopy", "AAPM"]
+    },
+    {
+      "id": "icrp-draft-fluoroscopy",
+      "title": "ICRP Draft - Radiological Protection in Fluoroscopically Guided Procedures",
+      "organization": "ICRP",
+      "category": "federal",
+      "description": "International guidance on radiation protection for fluoroscopy outside imaging departments.",
+      "file": "Federal_National/ICRP_Draft_Radiological_Protection_Fluoroscopy.pdf",
+      "externalUrl": "https://www.icrp.org/docs/Radiological%20protection%20in%20fluoroscopically%20guided%20procedures%20performed%20outside%20the%20imaging%20depa.pdf",
+      "tags": ["ICRP", "international", "fluoroscopy", "protection"]
+    },
+    {
+      "id": "iaea-rpop",
+      "title": "IAEA Radiation Protection and Safety in Medical Uses of Ionizing Radiation",
+      "organization": "IAEA",
+      "category": "federal",
+      "description": "Comprehensive IAEA publication on radiation protection in medical settings.",
+      "file": "Federal_National/IAEA_Radiation_Protection_Safety_Medical_Uses.pdf",
+      "externalUrl": "https://www-pub.iaea.org/MTCD/Publications/PDF/PUB1775_web.pdf",
+      "tags": ["IAEA", "international", "medical", "protection"]
+    },
+    {
+      "id": "ncrp-statement-11",
+      "title": "NCRP Statement 11",
+      "organization": "NCRP",
+      "category": "federal",
+      "description": "NCRP statement on radiation protection recommendations.",
+      "file": "Federal_National/NCRP_Statement_11.pdf",
+      "externalUrl": "https://ncrponline.org/wp-content/themes/ncrp/PDFs/Statement_11.pdf",
+      "tags": ["NCRP", "statement", "recommendations"]
+    },
+    {
+      "id": "snmmi-scope",
+      "title": "SNMMI Nuclear Medicine Technologist Scope of Practice (2024)",
+      "organization": "SNMMI",
+      "category": "federal",
+      "description": "Defines the scope of practice for nuclear medicine technologists.",
+      "file": "Federal_National/SNMMI_NMT_Scope_of_Practice_2024.pdf",
+      "externalUrl": "https://snmmi.org/common/Uploaded%20files/Advocacy/NMT%20Scope%20of%20Practice%203rd%20Edition%20Final%2011.11.24.pdf",
+      "tags": ["SNMMI", "nuclear medicine", "technologist", "scope"]
+    },
+    {
+      "id": "asrt-practice-standards",
+      "title": "ASRT Practice Standards - Radiography",
+      "organization": "ASRT",
+      "category": "federal",
+      "description": "Professional practice standards for radiographers.",
+      "file": "Federal_National/ASRT_Practice_Standards_Radiography.pdf",
+      "externalUrl": "https://www.asrt.org/docs/default-source/practice-standards/ps_rad.pdf",
+      "tags": ["ASRT", "radiography", "standards", "practice"]
+    },
+    {
+      "id": "ast-ionizing-radiation",
+      "title": "AST Standards for Ionizing Radiation Exposure",
+      "organization": "AST",
+      "category": "federal",
+      "description": "Standards for ionizing radiation exposure for surgical technologists.",
+      "file": "Federal_National/AST_Standards_Ionizing_Radiation.pdf",
+      "externalUrl": "https://www.ast.org/uploadedFiles/Main_Site/Content/About_Us/Standard%20Ionizing%20Radiation%20Exposure.pdf",
+      "tags": ["AST", "surgical", "ionizing radiation", "standards"]
+    },
+    {
+      "id": "ca-fluoroscopy-permit",
+      "title": "California Fluoroscopy Permit Application",
+      "organization": "California CDPH",
+      "category": "state",
+      "state": "CA",
+      "description": "Application form for California fluoroscopy permits.",
+      "file": "State_Regulations/CA_Fluoroscopy_Permit_Application.pdf",
+      "externalUrl": "https://www.cdph.ca.gov/CDPH%20Document%20Library/ControlledForms/cdph8228.pdf",
+      "tags": ["California", "permit", "fluoroscopy", "application"]
+    },
+    {
+      "id": "ca-rad-protection-guide",
+      "title": "California Radiation Protection Program Guide",
+      "organization": "California CDPH",
+      "category": "state",
+      "state": "CA",
+      "description": "Guide for establishing radiation protection programs in California.",
+      "file": "State_Regulations/CA_Radiation_Protection_Program_Guide.pdf",
+      "externalUrl": "https://www.cdph.ca.gov/Programs/CEH/DRSEM/CDPH%20Document%20Library/RHB/X-ray/RHB-Guide-RadProtectionProgram.pdf",
+      "tags": ["California", "program", "protection", "guide"]
+    },
+    {
+      "id": "ca-rso-duties",
+      "title": "California RSO Duties Form",
+      "organization": "California CDPH",
+      "category": "state",
+      "state": "CA",
+      "description": "Form outlining RSO duties and responsibilities in California.",
+      "file": "State_Regulations/CA_RSO_Duties_Form.pdf",
+      "externalUrl": "https://www.cdph.ca.gov/CDPH%20Document%20Library/ControlledForms/cdph8243MRMA.pdf",
+      "tags": ["California", "RSO", "duties", "form"]
+    },
+    {
+      "id": "tx-289-227",
+      "title": "Texas 25 TAC §289.227 - X-rays in Healing Arts",
+      "organization": "Texas DSHS",
+      "category": "state",
+      "state": "TX",
+      "description": "Texas regulations for X-ray use in healing arts.",
+      "file": "State_Regulations/TX_25TAC_289.227_Xrays_Healing_Arts.pdf",
+      "externalUrl": "https://www.dshs.texas.gov/sites/default/files/radiation/pdffiles/Rules/227_fn__5__2013.pdf",
+      "tags": ["Texas", "regulations", "X-ray", "healing arts"]
+    },
+    {
+      "id": "tx-289-231",
+      "title": "Texas 25 TAC §289.231 - General Radiation Control",
+      "organization": "Texas DSHS",
+      "category": "state",
+      "state": "TX",
+      "description": "Texas general radiation control regulations.",
+      "file": "State_Regulations/TX_25TAC_289.231_General_Radiation_Control.pdf",
+      "externalUrl": "https://www.dshs.texas.gov/sites/default/files/radiation/pdffiles/Rules/231fn_12_2011.pdf",
+      "tags": ["Texas", "regulations", "radiation control"]
+    },
+    {
+      "id": "tx-notices-workers",
+      "title": "Texas RC203-1 - Notices to Workers",
+      "organization": "Texas DSHS",
+      "category": "state",
+      "state": "TX",
+      "description": "Texas required notices to radiation workers.",
+      "file": "State_Regulations/TX_RC203-1_Notices_to_Workers.pdf",
+      "externalUrl": "https://www.dshs.texas.gov/sites/default/files/radiation/pdffiles/Rules/RC203-1Rev.pdf",
+      "tags": ["Texas", "notices", "workers"]
+    },
+    {
+      "id": "ny-part16",
+      "title": "New York Part 16 - Full Regulations",
+      "organization": "NY DOH",
+      "category": "state",
+      "state": "NY",
+      "description": "New York State radiation regulations (Part 16 of Sanitary Code).",
+      "file": "State_Regulations/NY_Part16_Full_Regulations.pdf",
+      "externalUrl": "https://www.health.ny.gov/environmental/radiological/radon/radioactive_material_licensing/docs/part16.pdf",
+      "tags": ["New York", "regulations", "Part 16"],
+      "note": "File may need re-download"
+    },
+    {
+      "id": "nyc-article-175",
+      "title": "NYC Health Code Article 175",
+      "organization": "NYC DOHMH",
+      "category": "state",
+      "state": "NY",
+      "description": "New York City specific radiation regulations.",
+      "file": "State_Regulations/NYC_Health_Code_Article_175.pdf",
+      "externalUrl": "https://www.nyc.gov/assets/doh/downloads/pdf/about/healthcode/health-code-article175.pdf",
+      "tags": ["New York City", "health code", "Article 175"]
+    },
+    {
+      "id": "fl-chapter468",
+      "title": "Florida Chapter 468 Part IV - Radiological Personnel",
+      "organization": "FL DOH",
+      "category": "state",
+      "state": "FL",
+      "description": "Florida radiological personnel certification requirements.",
+      "file": "State_Regulations/FL_Chapter468_PartIV_Radiological_Personnel.pdf",
+      "externalUrl": "https://www.floridahealth.gov/environmental-health/radiation-control/radtech/_documents/ch-468-part-iv-ch-64e-3-with-attachment-july-1-2012.pdf",
+      "tags": ["Florida", "personnel", "certification"]
+    },
+    {
+      "id": "fl-64e5-partv",
+      "title": "Florida 64E-5 Part V - Fluoroscopic X-ray Systems",
+      "organization": "FL DOH",
+      "category": "state",
+      "state": "FL",
+      "description": "Florida regulations specific to fluoroscopic X-ray systems.",
+      "file": "State_Regulations/FL_64E-5_PartV_Fluoroscopic_Xray_Systems.pdf",
+      "externalUrl": "https://www.floridahealth.gov/environmental-health/radiation-control/_documents/regs/64E-5PART5-06-03-2015.pdf",
+      "tags": ["Florida", "fluoroscopy", "X-ray systems"]
+    },
+    {
+      "id": "pa-chapter221",
+      "title": "Pennsylvania Chapter 221 - X-Rays in Healing Arts",
+      "organization": "PA DEP",
+      "category": "state",
+      "state": "PA",
+      "description": "Pennsylvania regulations for X-rays in healing arts.",
+      "file": "State_Regulations/PA_Chapter221_Xrays_Healing_Arts.pdf",
+      "externalUrl": "https://www.pacodeandbulletin.gov/secure/pacode/data/025/chapter221/025_0221.pdf",
+      "tags": ["Pennsylvania", "Chapter 221", "X-ray"]
+    },
+    {
+      "id": "pa-annex-a",
+      "title": "Pennsylvania Radiological Health Annex A",
+      "organization": "PA DEP",
+      "category": "state",
+      "state": "PA",
+      "description": "Pennsylvania radiological health regulatory annex.",
+      "file": "State_Regulations/PA_Radiological_Health_Annex_A.pdf",
+      "externalUrl": "https://files.dep.state.pa.us/RadiationProtection/BureauOfRadiationProtection/BRPPortalFiles/RPAC-2017/7-499_Radiological%20Health_Annex%20A_CHANGES.pdf",
+      "tags": ["Pennsylvania", "radiological health", "annex"]
+    },
+    {
+      "id": "al-medical-manual",
+      "title": "Alabama Medical Radiation Safety Manual",
+      "organization": "AL DPH",
+      "category": "state",
+      "state": "AL",
+      "description": "Comprehensive medical radiation safety procedures for Alabama.",
+      "file": "State_Regulations/AL_Medical_Radiation_Safety_Manual.pdf",
+      "externalUrl": "https://www.alabamapublichealth.gov/radiation/assets/medical-radiation-safety-procedures-manual.pdf",
+      "tags": ["Alabama", "manual", "procedures", "safety"]
+    },
+    {
+      "id": "ga-xray-admin",
+      "title": "Georgia Admin Code - X-Rays in Healing Arts",
+      "organization": "GA EPD",
+      "category": "state",
+      "state": "GA",
+      "description": "Georgia administrative code for X-rays in healing arts.",
+      "file": "State_Regulations/GA_Admin_Code_Xrays_Healing_Arts.pdf",
+      "externalUrl": "https://sos.ga.gov/sites/default/files/forms/12%20Reference%20-%20Georgia%20Administrative%20Code%20290-5-22-.04%20XRays%20in%20the%20Healing%20Arts.pdf",
+      "tags": ["Georgia", "administrative code", "X-ray"]
+    },
+    {
+      "id": "stanford-manual",
+      "title": "Stanford University Hospital Radiation Protection Guidance",
+      "organization": "Stanford EHS",
+      "category": "hospital",
+      "description": "Comprehensive radiation protection guidance for Stanford Hospital staff.",
+      "file": "Hospital_University_Manuals/Stanford_Hospital_Radiation_Protection_Guidance.pdf",
+      "externalUrl": "https://ehs.stanford.edu/wp-content/uploads/sops/Hospital-Guidance-document.pdf",
+      "tags": ["Stanford", "hospital", "manual", "guidance"]
+    },
+    {
+      "id": "columbia-manual",
+      "title": "Columbia University Radiation Safety Manual (2023)",
+      "organization": "Columbia EHS",
+      "category": "hospital",
+      "description": "Columbia University's comprehensive radiation safety manual.",
+      "file": "Hospital_University_Manuals/Columbia_Radiation_Safety_Manual_2023.pdf",
+      "externalUrl": "https://research.columbia.edu/sites/default/files/content/EHS/Manuals/RadiationSafetyManual.pdf",
+      "tags": ["Columbia", "university", "manual", "2023"]
+    },
+    {
+      "id": "uw-manual",
+      "title": "University of Washington Radiation Safety Manual (2023)",
+      "organization": "UW EHS",
+      "category": "hospital",
+      "description": "University of Washington's radiation safety manual.",
+      "file": "Hospital_University_Manuals/UWashington_Radiation_Safety_Manual_2023.pdf",
+      "externalUrl": "https://www.ehs.washington.edu/system/files/resources/RSManualBinder.pdf",
+      "tags": ["Washington", "university", "manual", "2023"]
+    },
+    {
+      "id": "duke-manual",
+      "title": "Duke University Radiation Safety Manual",
+      "organization": "Duke Safety",
+      "category": "hospital",
+      "description": "Duke University's radiation safety manual.",
+      "file": "Hospital_University_Manuals/Duke_Radiation_Safety_Manual.pdf",
+      "externalUrl": "https://www.safety.duke.edu/sites/default/files/radman.pdf",
+      "tags": ["Duke", "university", "manual"]
+    },
+    {
+      "id": "uthealth-manual",
+      "title": "UTHealth Houston Radiation Safety Manual (2025)",
+      "organization": "UTHealth",
+      "category": "hospital",
+      "description": "UTHealth Houston's latest radiation safety manual.",
+      "file": "Hospital_University_Manuals/UTHealth_Radiation_Safety_Manual_2025.pdf",
+      "externalUrl": "https://www.uth.edu/safety/radiation-safety/Radiation%20Safety%20Manual%20-Feb%202025.pdf",
+      "tags": ["UTHealth", "Houston", "manual", "2025"]
+    },
+    {
+      "id": "uab-apron-policy",
+      "title": "UAB Lead Apron Policy",
+      "organization": "UAB EHS",
+      "category": "hospital",
+      "description": "University of Alabama Birmingham lead apron policy.",
+      "file": "Hospital_University_Manuals/UAB_Lead_Apron_Policy.pdf",
+      "externalUrl": "https://www.uab.edu/ehs/images/docs/rad/apronleadpolicyupdated2.pdf",
+      "tags": ["UAB", "lead apron", "policy", "PPE"]
+    },
+    {
+      "id": "osu-xray-manual",
+      "title": "Ohio State University X-Ray Manual",
+      "organization": "OSU EHS",
+      "category": "hospital",
+      "description": "Ohio State University's X-ray safety manual.",
+      "file": "Hospital_University_Manuals/OhioState_Xray_Manual.pdf",
+      "externalUrl": "https://ehs.osu.edu/sites/default/files/x-ray_manual.pdf",
+      "tags": ["Ohio State", "X-ray", "manual"]
+    },
+    {
+      "id": "umich-dosimetry-faq",
+      "title": "University of Michigan Dosimetry FAQs",
+      "organization": "UMich EHS",
+      "category": "hospital",
+      "description": "Frequently asked questions about dosimetry at U of Michigan.",
+      "file": "Hospital_University_Manuals/UMichigan_Dosimetry_FAQs.pdf",
+      "externalUrl": "https://ehs.umich.edu/wp-content/uploads/2022/01/Dosimetry-FAQs-Radiation-Producing-Machines.pdf",
+      "tags": ["Michigan", "dosimetry", "FAQ"]
+    },
+    {
+      "id": "yale-training-1",
+      "title": "Yale Fluoroscopy Radiation Protection Training",
+      "organization": "Yale",
+      "category": "training",
+      "description": "Comprehensive fluoroscopy radiation protection training presentation.",
+      "file": "Training_Educational/Yale_Fluoroscopy_Radiation_Protection_Training.pdf",
+      "externalUrl": "https://yale.cloud-cme.com/assets/YALE/Presentations/8920/8920.pdf",
+      "tags": ["Yale", "training", "fluoroscopy", "protection"]
+    },
+    {
+      "id": "yale-training-2",
+      "title": "Yale Fluoroscopy Safety Final",
+      "organization": "Yale",
+      "category": "training",
+      "description": "Yale fluoroscopy safety training presentation.",
+      "file": "Training_Educational/Yale_Fluoroscopy_Safety_Final.pdf",
+      "externalUrl": "https://yale.cloud-cme.com/assets/YALE/Presentations/181/Fluoroscopy_Safety_FINAL%20(3).pdf",
+      "tags": ["Yale", "training", "fluoroscopy", "safety"]
+    },
+    {
+      "id": "umms-refresher",
+      "title": "UMMS Fluoroscopy Refresher Training",
+      "organization": "UMMS",
+      "category": "training",
+      "description": "University of Maryland Medical System fluoroscopy refresher training.",
+      "file": "Training_Educational/UMMS_Fluoroscopy_Refresher_Training.pdf",
+      "externalUrl": "https://www.umms.org/sjmc/-/media/files/um-sjmc/for-health-professionals/training-education/umms-fluoroscopy-refresher-training.pdf",
+      "tags": ["UMMS", "training", "refresher", "fluoroscopy"]
+    },
+    {
+      "id": "uconn-badge-training",
+      "title": "UConn Badge Training Presentation",
+      "organization": "UConn",
+      "category": "training",
+      "description": "Training presentation on radiation badge use at UConn.",
+      "file": "Training_Educational/UConn_Badge_Training_Presentation.pdf",
+      "externalUrl": "https://health.uconn.edu/radiation-safety/wp-content/uploads/sites/226/2019/08/Badge_Training_Presentation.pdf",
+      "tags": ["UConn", "badge", "dosimetry", "training"]
+    }
+  ],
+  "_metadata": {
+    "lastUpdated": "2025-12-12",
+    "totalResources": 35,
+    "note": "Some PDF files may have download issues. Check file sizes before relying on local copies."
+  }
+}

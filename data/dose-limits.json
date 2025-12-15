@@ -1,0 +1,241 @@
+{
+  "authorities": [
+    {
+      "id": "osha",
+      "name": "OSHA",
+      "fullName": "Occupational Safety and Health Administration",
+      "regulation": "29 CFR 1910.1096",
+      "note": "Has not been substantially revised since 1971"
+    },
+    {
+      "id": "nrc",
+      "name": "NRC",
+      "fullName": "Nuclear Regulatory Commission",
+      "regulation": "10 CFR Part 20",
+      "note": "Adopted by Agreement States"
+    },
+    {
+      "id": "icrp",
+      "name": "ICRP",
+      "fullName": "International Commission on Radiological Protection",
+      "regulation": "Current Recommendations",
+      "note": "International guidance, not directly enforceable in US"
+    }
+  ],
+  "limits": [
+    {
+      "category": "whole_body",
+      "name": "Whole Body (TEDE)",
+      "description": "Total Effective Dose Equivalent - whole body exposure",
+      "values": {
+        "osha": {
+          "value": "5 rem",
+          "metric": "50 mSv",
+          "period": "annual",
+          "note": "1.25 rem/quarter"
+        },
+        "nrc": {
+          "value": "5 rem",
+          "metric": "50 mSv",
+          "period": "annual"
+        },
+        "icrp": {
+          "value": "20 mSv/year avg",
+          "metric": "20 mSv",
+          "period": "averaged over 5 years",
+          "note": "Not to exceed 50 mSv in any single year"
+        }
+      }
+    },
+    {
+      "category": "eye_lens",
+      "name": "Lens of Eye",
+      "description": "Dose limit for eye lens to prevent cataracts",
+      "values": {
+        "osha": {
+          "value": "1.25 rem/quarter",
+          "metric": "12.5 mSv/quarter",
+          "period": "quarterly"
+        },
+        "nrc": {
+          "value": "15 rem",
+          "metric": "150 mSv",
+          "period": "annual"
+        },
+        "icrp": {
+          "value": "20 mSv/year avg",
+          "metric": "20 mSv",
+          "period": "averaged over 5 years",
+          "note": "Reduced from previous 150 mSv/year"
+        }
+      }
+    },
+    {
+      "category": "extremities",
+      "name": "Extremities (Hands/Feet)",
+      "description": "Shallow dose equivalent for skin and extremities",
+      "values": {
+        "osha": {
+          "value": "18.75 rem/quarter",
+          "metric": "187.5 mSv/quarter",
+          "period": "quarterly"
+        },
+        "nrc": {
+          "value": "50 rem",
+          "metric": "500 mSv",
+          "period": "annual"
+        },
+        "icrp": {
+          "value": "500 mSv",
+          "metric": "500 mSv",
+          "period": "annual"
+        }
+      }
+    },
+    {
+      "category": "skin",
+      "name": "Skin",
+      "description": "Shallow dose equivalent to skin",
+      "values": {
+        "osha": {
+          "value": "7.5 rem/quarter",
+          "metric": "75 mSv/quarter",
+          "period": "quarterly"
+        },
+        "nrc": {
+          "value": "50 rem",
+          "metric": "500 mSv",
+          "period": "annual"
+        },
+        "icrp": {
+          "value": "500 mSv",
+          "metric": "500 mSv",
+          "period": "annual"
+        }
+      }
+    },
+    {
+      "category": "pregnant",
+      "name": "Pregnant Worker (Fetus)",
+      "description": "Dose limit to embryo/fetus after declaration of pregnancy",
+      "values": {
+        "osha": {
+          "value": "N/A",
+          "note": "No specific requirement"
+        },
+        "nrc": {
+          "value": "0.5 rem",
+          "metric": "5 mSv",
+          "period": "entire pregnancy",
+          "note": "After declaration of pregnancy"
+        },
+        "icrp": {
+          "value": "1 mSv",
+          "metric": "1 mSv",
+          "period": "after declaration",
+          "note": "Remainder of pregnancy after declaration"
+        }
+      }
+    },
+    {
+      "category": "individual_organ",
+      "name": "Individual Organ (other than lens)",
+      "description": "Committed dose equivalent to any individual organ",
+      "values": {
+        "osha": {
+          "value": "N/A",
+          "note": "See whole body and extremity limits"
+        },
+        "nrc": {
+          "value": "50 rem",
+          "metric": "500 mSv",
+          "period": "annual"
+        },
+        "icrp": {
+          "value": "500 mSv",
+          "metric": "500 mSv",
+          "period": "annual"
+        }
+      }
+    },
+    {
+      "category": "minor",
+      "name": "Minors (under 18)",
+      "description": "Dose limits for workers under 18 years old",
+      "values": {
+        "osha": {
+          "value": "N/A",
+          "note": "Same as adult limits"
+        },
+        "nrc": {
+          "value": "0.5 rem",
+          "metric": "5 mSv",
+          "period": "annual",
+          "note": "10% of adult limits"
+        },
+        "icrp": {
+          "value": "6 mSv",
+          "metric": "6 mSv",
+          "period": "annual",
+          "note": "Same as public limits"
+        }
+      }
+    },
+    {
+      "category": "public",
+      "name": "Members of Public",
+      "description": "Dose limits for non-radiation workers",
+      "values": {
+        "osha": {
+          "value": "N/A",
+          "note": "Not regulated by OSHA"
+        },
+        "nrc": {
+          "value": "0.1 rem",
+          "metric": "1 mSv",
+          "period": "annual"
+        },
+        "icrp": {
+          "value": "1 mSv",
+          "metric": "1 mSv",
+          "period": "annual"
+        }
+      }
+    }
+  ],
+  "monitoringThresholds": {
+    "title": "When Monitoring is Required",
+    "nrc": {
+      "threshold": "Likely to receive >10% of annual limit",
+      "value": "500 mrem/year (5 mSv/year)",
+      "situations": [
+        "All fluoroscopy operators",
+        "Anyone within 6 feet of fluoroscopy tube during procedures",
+        "Minors working with radiation",
+        "Declared pregnant women"
+      ]
+    }
+  },
+  "alara": {
+    "title": "ALARA Principle",
+    "description": "As Low As Reasonably Achievable",
+    "definition": "Making every reasonable effort to maintain exposures to radiation as far below the dose limits as practical, consistent with the purpose for which the licensed activity is undertaken.",
+    "investigationLevels": {
+      "nrc": "Institutional action levels typically set at 10-25% of regulatory limits"
+    }
+  },
+  "unitConversions": {
+    "rem_to_msv": 10,
+    "msv_to_rem": 0.1,
+    "mrem_to_msv": 0.01,
+    "note": "1 rem = 10 mSv = 1000 mrem"
+  },
+  "_metadata": {
+    "lastUpdated": "2025-12-12",
+    "sources": [
+      "OSHA 29 CFR 1910.1096",
+      "NRC 10 CFR Part 20",
+      "ICRP Publications"
+    ]
+  }
+}

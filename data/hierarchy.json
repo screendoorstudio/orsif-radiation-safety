@@ -1,0 +1,424 @@
+{
+  "levels": [
+    {
+      "id": "federal",
+      "name": "Federal Regulatory",
+      "order": 1,
+      "color": "#c0392b",
+      "description": "National laws and regulations that apply across all states",
+      "agencies": [
+        {
+          "id": "osha",
+          "name": "OSHA",
+          "fullName": "Occupational Safety and Health Administration",
+          "regulation": "29 CFR 1910.1096",
+          "role": "Regulates occupational radiation exposure for non-NRC regulated sources (including X-ray equipment and fluoroscopy)",
+          "keyPoints": [
+            "Dose Limits: 1.25 rem/quarter whole body; 18.75 rem/quarter hands/forearms",
+            "Has not been substantially revised since 1971",
+            "Applies to all workplaces with ionizing radiation"
+          ],
+          "links": [
+            {"label": "Ionizing Radiation Standards", "url": "https://www.osha.gov/ionizing-radiation/standards"},
+            {"label": "29 CFR 1910.1096 Full Text", "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1096"},
+            {"label": "Hospitals eTool - Radiology", "url": "https://www.osha.gov/etools/hospitals/clinical-services/radiology"},
+            {"label": "Hospitals eTool - Surgical Suite", "url": "https://www.osha.gov/etools/hospitals/surgical-suite/ionizing-radiation-exposure"}
+          ]
+        },
+        {
+          "id": "nrc",
+          "name": "NRC",
+          "fullName": "Nuclear Regulatory Commission",
+          "regulation": "10 CFR Part 20, Part 35",
+          "role": "Regulates exposure to radioactive materials; establishes occupational dose guidelines adopted by most states",
+          "keyPoints": [
+            "TEDE: 5 rems (0.05 Sv) per year",
+            "Lens of Eye: 15 rems per year",
+            "Extremities: 50 rems per year",
+            "Pregnant Workers (fetus): 500 mrem total",
+            "39 Agreement States have adopted NRC regulations"
+          ],
+          "links": [
+            {"label": "Part 20 - Radiation Protection Standards", "url": "https://www.nrc.gov/reading-rm/doc-collections/cfr/part020/index"},
+            {"label": "10 CFR 20.1201 - Occupational Dose Limits", "url": "https://www.nrc.gov/reading-rm/doc-collections/cfr/part020/part020-1201"},
+            {"label": "10 CFR 35.50 - RSO Training", "url": "https://www.nrc.gov/reading-rm/doc-collections/cfr/part035/part035-0050"},
+            {"label": "Agreement State Directory", "url": "https://scp.nrc.gov/asdirectory.html"}
+          ]
+        },
+        {
+          "id": "fda",
+          "name": "FDA",
+          "fullName": "Food and Drug Administration",
+          "regulation": "21 CFR Parts 1000-1050",
+          "role": "Regulates manufacturing of fluoroscopic X-ray systems; Initiative to Reduce Unnecessary Radiation Exposure",
+          "keyPoints": [
+            "Sets performance standards for X-ray equipment",
+            "Initiative to Reduce Unnecessary Radiation Exposure from Medical Imaging",
+            "Facility guidelines and personnel qualifications"
+          ],
+          "links": [
+            {"label": "Initiative to Reduce Unnecessary Radiation Exposure", "url": "https://www.fda.gov/radiation-emitting-products/radiation-safety/initiative-reduce-unnecessary-radiation-exposure-medical-imaging"},
+            {"label": "Fluoroscopy Information", "url": "https://www.fda.gov/radiation-emitting-products/medical-x-ray-imaging/fluoroscopy"},
+            {"label": "Facility Guidelines", "url": "https://www.fda.gov/radiation-emitting-products/initiative-reduce-unnecessary-radiation-exposure-medical-imaging/facility-guidelines-and-personnel-qualifications"}
+          ]
+        },
+        {
+          "id": "cdc-niosh",
+          "name": "CDC/NIOSH",
+          "fullName": "Centers for Disease Control / National Institute for Occupational Safety and Health",
+          "role": "Research on occupational radiation exposure and health effects; provides recommendations",
+          "keyPoints": [
+            "Conducts occupational radiation exposure research",
+            "Radiation Dose Reconstruction Program",
+            "Advisory Board on Radiation and Worker Health"
+          ],
+          "links": [
+            {"label": "Occupational Energy Research Program", "url": "https://www.cdc.gov/niosh/docs/2006-101/default.html"},
+            {"label": "Radiation Dose Reconstruction Program", "url": "https://www.cdc.gov/niosh/ocas/default.html"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "state",
+      "name": "State Regulatory",
+      "order": 2,
+      "color": "#2980b9",
+      "description": "State-specific regulations and licensing requirements",
+      "content": {
+        "overview": "Each state has its own radiation control program, often based on CRCPD Suggested State Regulations. 39 states are 'Agreement States' that have adopted NRC regulations for radioactive materials.",
+        "keyResources": [
+          {"label": "CRCPD State Contact Directory", "url": "https://www.crcpd.org/mpage/StateContactDirector", "description": "Links to all 50 state radiation control programs"},
+          {"label": "ASRT States That Regulate", "url": "https://www.asrt.org/main/standards-and-regulations/legislation-regulations-and-advocacy/states-that-regulate", "description": "State-by-state radiologic technologist regulation"},
+          {"label": "ASTRO State Regulatory Library", "url": "https://www.astro.org/advocacy/state-regulatory-library", "description": "Radiation oncology state regulations"},
+          {"label": "2025 Study on State Variability", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12230476/", "description": "Academic analysis of state regulatory differences"}
+        ],
+        "variations": [
+          "Fluoroscopy certification requirements vary significantly",
+          "Some states require specific exams (e.g., California)",
+          "Lead apron specifications differ (0.25mm to 0.5mm)",
+          "Training hour requirements vary by state"
+        ]
+      }
+    },
+    {
+      "id": "accreditation",
+      "name": "Accreditation",
+      "order": 3,
+      "color": "#8e44ad",
+      "description": "Hospital and facility accreditation standards",
+      "organizations": [
+        {
+          "id": "joint-commission",
+          "name": "The Joint Commission",
+          "fullName": "The Joint Commission (TJC)",
+          "role": "Hospital accreditation; sets fluoroscopy radiation safety standards",
+          "keyPoints": [
+            "Designation of Radiation Safety Officer required",
+            "Staff dosimetry monitoring (quarterly review)",
+            "Annual radiation safety education",
+            "Equipment shielding requirements",
+            "Dose documentation (cumulative-air kerma or kerma area product)",
+            "Sentinel Event: Prolonged fluoroscopy with cumulative dose >1500 rads to a single field"
+          ],
+          "effectiveDate": "January 2019",
+          "links": [
+            {"label": "Joint Commission Standards", "url": "https://www.jointcommission.org/en-us/standards"},
+            {"label": "Hospital Accreditation Program", "url": "https://www.jointcommission.org/en-us/accreditation/hospital"},
+            {"label": "New Fluoroscopy Requirements (2019)", "url": "https://biomedphysics.com/fluoroscopy-joint-commission"}
+          ]
+        },
+        {
+          "id": "acr",
+          "name": "ACR",
+          "fullName": "American College of Radiology",
+          "role": "Radiology facility accreditation",
+          "links": [
+            {"label": "Accreditation Programs", "url": "https://www.acr.org/Clinical-Resources"}
+          ]
+        },
+        {
+          "id": "campep",
+          "name": "CAMPEP",
+          "fullName": "Commission on Accreditation of Medical Physics Educational Programs",
+          "role": "Accredits medical physics education programs",
+          "links": [
+            {"label": "CAMPEP Main Website", "url": "https://www.campep.org/"},
+            {"label": "Accredited Residency Programs", "url": "https://campep.org/campeplstres.asp"}
+          ]
+        },
+        {
+          "id": "acro",
+          "name": "ACRO",
+          "fullName": "American College of Radiation Oncology",
+          "role": "Radiation oncology accreditation",
+          "links": [
+            {"label": "ACRO Accreditation", "url": "https://acro.org/page/ACROAccreditation"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "professional",
+      "name": "Professional Guidance",
+      "order": 4,
+      "color": "#27ae60",
+      "description": "Best practices and guidelines from professional societies",
+      "organizations": [
+        {
+          "id": "aapm",
+          "name": "AAPM",
+          "fullName": "American Association of Physicists in Medicine",
+          "role": "Sets medical physics practice guidelines; develops fluoroscopy management protocols",
+          "keyDocuments": [
+            "AAPM Report No. 58 - Managing the Use of Fluoroscopy in Medical Institutions",
+            "AAPM Report No. 124 - Guide for Establishing a Credentialing and Privileging Program",
+            "AAPM Medical Physics Practice Guideline 12.a - Fluoroscopy Dose Management"
+          ],
+          "links": [
+            {"label": "Report 58 (PDF)", "url": "https://www.aapm.org/pubs/reports/RPT_58.pdf"},
+            {"label": "Fluoroscopy Education Resource Guide", "url": "https://www.aapm.org/education/erg/FLUORO/"}
+          ]
+        },
+        {
+          "id": "acr-clinical",
+          "name": "ACR",
+          "fullName": "American College of Radiology",
+          "role": "Clinical resources; practice parameters; radiation safety resources",
+          "links": [
+            {"label": "Radiation Safety Resources", "url": "https://www.acr.org/Clinical-Resources/Radiology-Safety/Radiation-Safety"},
+            {"label": "Appropriateness Criteria", "url": "https://www.acr.org/Clinical-Resources/Clinical-Tools-and-Reference/Appropriateness-Criteria"}
+          ]
+        },
+        {
+          "id": "asrt",
+          "name": "ASRT",
+          "fullName": "American Society of Radiologic Technologists",
+          "role": "Practice standards for radiologic technologists; state regulation tracking",
+          "links": [
+            {"label": "Practice Standards", "url": "https://www.asrt.org/main/standards-and-regulations/professional-practice/practice-standards"},
+            {"label": "States That Regulate", "url": "https://www.asrt.org/main/standards-and-regulations/legislation-regulations-and-advocacy/states-that-regulate"}
+          ]
+        },
+        {
+          "id": "hps",
+          "name": "HPS",
+          "fullName": "Health Physics Society",
+          "role": "Professional organization for radiation safety specialists; position statements",
+          "links": [
+            {"label": "Position Statements", "url": "https://hps.org/hpspublications/positionstatements/"},
+            {"label": "Ask the Experts", "url": "https://hps.org/publicinformation/ate/"}
+          ]
+        },
+        {
+          "id": "sir",
+          "name": "SIR",
+          "fullName": "Society of Interventional Radiology",
+          "role": "Guidelines for occupational radiation protection in interventional radiology",
+          "links": [
+            {"label": "Guidelines and Statements", "url": "https://www.sirweb.org/practice-resources/clinical-practice/guidelines-and-statements/"},
+            {"label": "Safety Position Statements", "url": "https://www.sirweb.org/practice-resources/clinical-practice/guidelines-and-statements/safety-professional-development/position-statement/"}
+          ]
+        },
+        {
+          "id": "scai",
+          "name": "SCAI",
+          "fullName": "Society for Cardiovascular Angiography and Interventions",
+          "role": "Occupational health hazards in cardiac catheterization laboratories",
+          "links": [
+            {"label": "Survey on Radiation Hazards", "url": "https://scai.org/survey-confirms-radiation-and-orthopedic-health-hazards-cardiac-catheterization-laboratories-are"},
+            {"label": "WIN Radiation Safety Campaign", "url": "https://scai.org/scai-win-radiation-safety-campaign-encourages-women-overcome-radiation-concerns-and-join"}
+          ]
+        },
+        {
+          "id": "acc",
+          "name": "ACC",
+          "fullName": "American College of Cardiology",
+          "role": "Guidelines and position statements for interventional cardiologists",
+          "links": [
+            {"label": "Radiation Safety for Interventional Cardiologist", "url": "https://www.acc.org/latest-in-cardiology/articles/2015/12/31/10/12/radiation-safety-for-the-interventional-cardiologist"},
+            {"label": "ACC/SCAI Position Statement (2020)", "url": "https://www.acc.org/latest-in-cardiology/articles/2020/04/06/12/57/acc-scai-publish-position-statement-on-cath-lab-occupational-health-hazards"}
+          ]
+        },
+        {
+          "id": "aorn",
+          "name": "AORN",
+          "fullName": "Association of periOperative Registered Nurses",
+          "role": "Radiation safety guidelines for operating room personnel",
+          "links": [
+            {"label": "Guidelines for Perioperative Practice", "url": "https://www.aorn.org/guidelines-resources/guidelines-for-perioperative-practice"},
+            {"label": "Radiation Safety Guideline", "url": "https://www.aorn.org/article/aorn-guideline-in-focus--radiation-safety"}
+          ]
+        },
+        {
+          "id": "snmmi",
+          "name": "SNMMI",
+          "fullName": "Society of Nuclear Medicine and Molecular Imaging",
+          "role": "Standards for nuclear medicine technologists",
+          "links": [
+            {"label": "Safe Medical Uses of Radiation", "url": "https://www.snmmi.org/ClinicalPractice/content.aspx?ItemNumber=4825"},
+            {"label": "State Requirements by Jurisdiction", "url": "https://snmmi.org/IssuesAdvocacy/content.aspx?=&ItemNumber=5719"}
+          ]
+        }
+      ],
+      "internationalOrganizations": [
+        {
+          "id": "icrp",
+          "name": "ICRP",
+          "fullName": "International Commission on Radiological Protection",
+          "role": "International dose recommendations",
+          "keyDocument": "ICRP Publication 139 (2018) - Occupational Radiological Protection in Interventional Procedures",
+          "links": [
+            {"label": "Publication 139", "url": "https://www.icrp.org/publication.asp?id=ICRP+Publication+139"},
+            {"label": "Publication 139 (Free via SAGE)", "url": "https://journals.sagepub.com/doi/full/10.1177/0146645317750356"}
+          ]
+        },
+        {
+          "id": "iaea",
+          "name": "IAEA",
+          "fullName": "International Atomic Energy Agency",
+          "role": "International guidance on radiation protection",
+          "links": [
+            {"label": "Radiation Protection of Workers", "url": "https://www.iaea.org/topics/radiation-protection/workers"},
+            {"label": "Staff Protection in Interventional Fluoroscopy", "url": "https://www.iaea.org/resources/rpop/health-professionals/interventional-procedures/radiation-protection-of-medical-staff-in-interventional-fluoroscopy"}
+          ]
+        },
+        {
+          "id": "ncrp",
+          "name": "NCRP",
+          "fullName": "National Council on Radiation Protection and Measurements",
+          "role": "National guidance reports",
+          "keyDocument": "NCRP Report No. 168 (2010) - Radiation Dose Management for Fluoroscopically-Guided Interventional Medical Procedures",
+          "links": [
+            {"label": "Report 168", "url": "https://ncrponline.org/shop/reports/report-no-168-radiation-dose-management-for-fluoroscopically-guided-interventional-medical-procedures/"}
+          ],
+          "note": "NCRP Report 168 requires purchase"
+        }
+      ]
+    },
+    {
+      "id": "institutional",
+      "name": "Institutional",
+      "order": 5,
+      "color": "#f39c12",
+      "description": "Hospital policies and radiation safety programs",
+      "components": [
+        {
+          "id": "rso",
+          "name": "Radiation Safety Officer (RSO)",
+          "requirements": [
+            "Board certification recognized by NRC/Agreement State, OR",
+            "200 hours classroom/laboratory training",
+            "1-2 years practical experience",
+            "Training in shipping, receiving, surveys, contamination control, emergency procedures"
+          ],
+          "responsibilities": [
+            "Manage radiation safety program",
+            "Monitor/estimate radiation exposure of staff, visitors, public",
+            "Ensure ALARA compliance",
+            "Oversee training programs",
+            "Review dosimetry results",
+            "Investigate incidents",
+            "Authority to halt unsafe operations"
+          ],
+          "links": [
+            {"label": "NRC 10 CFR 35.50 - RSO Training Requirements", "url": "https://www.nrc.gov/reading-rm/doc-collections/cfr/part035/part035-0050"},
+            {"label": "Who Can Be RSO", "url": "https://www.radiationsafetyconsultants.com/meeting-regulatory-requirements-to-become-a-radiation-safety-officer-in-the-us/"}
+          ]
+        },
+        {
+          "id": "rsc",
+          "name": "Radiation Safety Committee (RSC)",
+          "requiredMembers": [
+            "Authorized user of each type of use",
+            "Radiation Safety Officer",
+            "Nursing representative",
+            "Management representative (not AU or RSO)"
+          ],
+          "responsibilities": [
+            "Formulate radiation safety policy",
+            "Review/approve radioactive material use requests",
+            "Review training programs",
+            "Review infractions and accidents",
+            "Annual program review"
+          ],
+          "links": [
+            {"label": "NRC 10 CFR 35.24 - RSC Requirements", "url": "https://www.nrc.gov/reading-rm/doc-collections/cfr/part035/part035-0024"},
+            {"label": "Stanford RSC Example", "url": "https://ehs.stanford.edu/manual/radiation-protection-guidance-hospital-staff/clinical-radiation-safety-committee-crsco"}
+          ]
+        }
+      ],
+      "exampleManuals": [
+        {"institution": "Stanford University", "url": "https://ehs.stanford.edu/manual/radiation-protection-guidance-hospital-staff"},
+        {"institution": "Columbia University", "url": "https://research.columbia.edu/sites/default/files/content/EHS/Manuals/RadiationSafetyManual.pdf"},
+        {"institution": "University of Washington", "url": "https://www.ehs.washington.edu/system/files/resources/RSManualBinder.pdf"},
+        {"institution": "Duke University", "url": "https://www.safety.duke.edu/sites/default/files/radman.pdf"}
+      ]
+    },
+    {
+      "id": "individual",
+      "name": "Individual Worker",
+      "order": 6,
+      "color": "#1abc9c",
+      "description": "Personal radiation safety responsibilities",
+      "components": [
+        {
+          "id": "dosimetry",
+          "name": "Personal Dosimetry",
+          "whoNeedsMonitoring": [
+            "Anyone likely to receive >10% of annual limit (500 mrem/year)",
+            "All fluoroscopy operators",
+            "Anyone within 6 feet of fluoroscopy tube",
+            "Minors working with radiation",
+            "Declared pregnant women"
+          ],
+          "badgeTypes": [
+            "Whole body badge (collar or chest)",
+            "Extremity ring badge (for hands)",
+            "Fetal badge (for pregnant workers)"
+          ],
+          "links": [
+            {"label": "Washington State Dosimetry Requirements", "url": "https://doh.wa.gov/community-and-environment/radiation/x-ray/x-ray-equipment-registration/x-ray-facility-plan-review/dosimetry-requirements"},
+            {"label": "Yale - Who Needs a Badge", "url": "https://ehs.yale.edu/who-needs-radiation-dose-monitor-film-badge"},
+            {"label": "Landauer - Understanding Dosimetry", "url": "https://www.landauer.com/blog/understanding-purpose-radiation-badges-personal-dosimetry"}
+          ]
+        },
+        {
+          "id": "ppe",
+          "name": "Protective Equipment",
+          "requirements": [
+            "Lead apron: Minimum 0.25 mm lead equivalence (0.5 mm recommended)",
+            "Thyroid shield",
+            "Lead glasses (for eye protection)",
+            "Proper storage on hangers/racks",
+            "Annual inspection required"
+          ],
+          "effectiveness": "Lead apron attenuates ~95% of scattered radiation",
+          "links": [
+            {"label": "Stanford - When Lead Apron is Effective", "url": "https://ehs.stanford.edu/manual/radiation-protection-guidance-hospital-staff/when-lead-apron-effective-and-appropriate"},
+            {"label": "Minnesota Lead Apron Guidance", "url": "https://www.health.state.mn.us/communities/environment/radiation/docs/xray/guidance/leadapron.pdf"}
+          ]
+        },
+        {
+          "id": "training",
+          "name": "Training Requirements",
+          "typical": [
+            "Initial radiation safety orientation",
+            "Annual fluoroscopy-specific training",
+            "Competency verification",
+            "State-specific CME requirements"
+          ],
+          "links": [
+            {"label": "Image Wisely Fluoroscopy Training", "url": "https://www.imagewisely.org/Imaging-Modalities/Fluoroscopy/Training-Credentialing-and-Privileging"},
+            {"label": "AAPM Fluoroscopy Education", "url": "https://www.aapm.org/education/erg/FLUORO/"}
+          ]
+        }
+      ]
+    }
+  ],
+  "_metadata": {
+    "lastUpdated": "2025-12-12",
+    "version": "1.0",
+    "source": "ORSIF Research Collection"
+  }
+}

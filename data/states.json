@@ -1,0 +1,292 @@
+{
+  "CA": {
+    "name": "California",
+    "abbreviation": "CA",
+    "agency": "California Department of Public Health, Radiologic Health Branch (RHB)",
+    "agreementState": true,
+    "keyFeatures": [
+      "Requires physician fluoroscopy certification exam",
+      "Specific CME requirements for permit renewal",
+      "State-administered fluoroscopy permits"
+    ],
+    "contact": {
+      "phone": "(916) 327-5106",
+      "website": "https://www.cdph.ca.gov/Programs/CEH/DRSEM/Pages/RHB.aspx"
+    },
+    "links": [
+      {"label": "RHB Main Website", "url": "https://www.cdph.ca.gov/Programs/CEH/DRSEM/Pages/RHB.aspx"},
+      {"label": "Laws and Regulations", "url": "https://www.cdph.ca.gov/Programs/CEH/DRSEM/Pages/RHB-LawsAndRegs.aspx"},
+      {"label": "RHB Forms Portal", "url": "https://www.cdph.ca.gov/Programs/PSB/pages/radiologichealthbranch.aspx"},
+      {"label": "Online Permit Verification", "url": "https://rhbxray.cdph.ca.gov/"}
+    ],
+    "pdfs": [
+      {"name": "Fluoroscopy Permit Application", "file": "CA_Fluoroscopy_Permit_Application.pdf"},
+      {"name": "Radiation Protection Program Guide", "file": "CA_Radiation_Protection_Program_Guide.pdf"},
+      {"name": "RSO Duties Form", "file": "CA_RSO_Duties_Form.pdf"}
+    ]
+  },
+  "TX": {
+    "name": "Texas",
+    "abbreviation": "TX",
+    "agency": "Texas Department of State Health Services (DSHS), Radiation Control Program",
+    "agreementState": true,
+    "keyFeatures": [
+      "25 Texas Administrative Code Chapter 289 governs radiation control",
+      "Comprehensive state radiation control program",
+      "Specific fluoroscopic equipment requirements"
+    ],
+    "contact": {
+      "phone": "(512) 834-6688",
+      "website": "https://www.dshs.texas.gov/texas-radiation-control"
+    },
+    "links": [
+      {"label": "Radiation Control Main", "url": "https://www.dshs.texas.gov/texas-radiation-control"},
+      {"label": "Laws and Rules", "url": "https://www.dshs.texas.gov/texas-radiation-control/laws-rules-radiation-control-program"}
+    ],
+    "pdfs": [
+      {"name": "25 TAC §289.227 - X-rays in Healing Arts", "file": "TX_25TAC_289.227_Xrays_Healing_Arts.pdf"},
+      {"name": "25 TAC §289.231 - General Radiation Control", "file": "TX_25TAC_289.231_General_Radiation_Control.pdf"},
+      {"name": "RC203-1 - Notices to Workers", "file": "TX_RC203-1_Notices_to_Workers.pdf"}
+    ]
+  },
+  "NY": {
+    "name": "New York",
+    "abbreviation": "NY",
+    "agency": "New York State Department of Health, Bureau of Environmental Radiation Protection",
+    "agreementState": true,
+    "keyFeatures": [
+      "Part 16 of NY Sanitary Code governs radiation",
+      "Specific fluoroscopic installation requirements",
+      "NYC has additional Health Code Article 175"
+    ],
+    "contact": {
+      "website": "https://www.health.ny.gov/environmental/radiological/"
+    },
+    "links": [
+      {"label": "Fluoroscopic Equipment Guide", "url": "https://www.health.ny.gov/environmental/radiological/radiation_safety_guides/fluoroscopic_equipment.htm"},
+      {"label": "Radiological Health FAQ", "url": "https://www.health.ny.gov/environmental/radiological/faqs/radhlthtech.htm"}
+    ],
+    "pdfs": [
+      {"name": "Part 16 Full Regulations", "file": "NY_Part16_Full_Regulations.pdf"},
+      {"name": "Notice to Employees Form", "file": "NY_Notice_to_Employees_Form.pdf"},
+      {"name": "NYC Health Code Article 175", "file": "NYC_Health_Code_Article_175.pdf"}
+    ]
+  },
+  "FL": {
+    "name": "Florida",
+    "abbreviation": "FL",
+    "agency": "Florida Department of Health, Bureau of Radiation Control",
+    "agreementState": true,
+    "keyFeatures": [
+      "Chapter 64E-5 Florida Administrative Code",
+      "Requires radiological personnel certification",
+      "Specific fluoroscopic X-ray system requirements"
+    ],
+    "contact": {
+      "website": "https://www.floridahealth.gov/environmental-health/radiation-control/index.html"
+    },
+    "links": [
+      {"label": "Radiation Control Main", "url": "https://www.floridahealth.gov/environmental-health/radiation-control/index.html"},
+      {"label": "Regulations Main", "url": "https://www.floridahealth.gov/environmental-health/radiation-control/regulations.html"},
+      {"label": "Radiologic Technology Licensing", "url": "https://www.floridahealth.gov/licensing-and-regulation/radiologic-technology/index.html"},
+      {"label": "Technologist Forms", "url": "https://www.floridahealth.gov/environmental-health/radiation-control/radtech/techform.html"}
+    ],
+    "pdfs": [
+      {"name": "Chapter 468 Part IV - Radiological Personnel", "file": "FL_Chapter468_PartIV_Radiological_Personnel.pdf"},
+      {"name": "64E-5 Part V - Fluoroscopic X-ray Systems", "file": "FL_64E-5_PartV_Fluoroscopic_Xray_Systems.pdf"},
+      {"name": "Control of Radiation Hazard Regs (NRC Archive)", "file": "FL_Control_Radiation_Hazard_Regs_NRC.pdf"}
+    ]
+  },
+  "PA": {
+    "name": "Pennsylvania",
+    "abbreviation": "PA",
+    "agency": "Pennsylvania Department of Environmental Protection, Radiation Control Division",
+    "agreementState": true,
+    "keyFeatures": [
+      "PA Code Title 25 Chapter 221 - X-Rays in Healing Arts",
+      "Comprehensive radiation protection requirements",
+      "Adopts CRCPD Suggested State Regulations"
+    ],
+    "contact": {
+      "website": "https://www.pa.gov/agencies/dep/programs-and-services/radiation-protection/radiation-control-division"
+    },
+    "links": [
+      {"label": "Radiation Control Division", "url": "https://www.pa.gov/agencies/dep/programs-and-services/radiation-protection/radiation-control-division"}
+    ],
+    "pdfs": [
+      {"name": "Chapter 221 - X-Rays in Healing Arts", "file": "PA_Chapter221_Xrays_Healing_Arts.pdf"},
+      {"name": "Radiological Health Annex A", "file": "PA_Radiological_Health_Annex_A.pdf"},
+      {"name": "X-Ray Regulation FAQs", "file": "PA_Xray_Regulation_FAQs.pdf"},
+      {"name": "CRCPD SSR Part H", "file": "PA_CRCPD_SSR_Part_H.pdf"}
+    ]
+  },
+  "OH": {
+    "name": "Ohio",
+    "abbreviation": "OH",
+    "agency": "Ohio Department of Health",
+    "agreementState": true,
+    "keyFeatures": [
+      "Ohio Administrative Code Chapter 3701:1-66",
+      "Specific requirements for radiation generating equipment",
+      "Medical fluoroscopic equipment standards"
+    ],
+    "contact": {
+      "website": "https://codes.ohio.gov/ohio-administrative-code/chapter-3701:1-66"
+    },
+    "links": [
+      {"label": "Ohio Admin Code 3701:1-66 (Full Chapter)", "url": "https://codes.ohio.gov/ohio-administrative-code/chapter-3701:1-66"},
+      {"label": "3701:1-66-07 - Medical Fluoroscopic Equipment", "url": "https://codes.ohio.gov/ohio-administrative-code/rule-3701:1-66-07"},
+      {"label": "3701:1-66-02 - General Administration", "url": "https://codes.ohio.gov/ohio-administrative-code/rule-3701:1-66-02"},
+      {"label": "Cornell Law - Ohio Fluoroscopy Regs", "url": "https://www.law.cornell.edu/regulations/ohio/Ohio-Admin-Code-3701-1-66-07"}
+    ],
+    "pdfs": []
+  },
+  "MI": {
+    "name": "Michigan",
+    "abbreviation": "MI",
+    "agency": "Michigan LARA/MIOSHA Radiation Safety Section",
+    "agreementState": false,
+    "keyFeatures": [
+      "Requires 0.5 mm lead equivalent shielding (higher than many states)",
+      "Part 7 - Ionizing Radiation Rules",
+      "Non-Agreement State (NRC jurisdiction for radioactive materials)"
+    ],
+    "contact": {
+      "website": "https://www.michigan.gov/leo/bureaus-agencies/miosha/divisions/technical-services-division/rad-safety"
+    },
+    "links": [
+      {"label": "Radiation Safety Main", "url": "https://www.michigan.gov/leo/bureaus-agencies/miosha/divisions/technical-services-division/rad-safety"},
+      {"label": "Radiation Safety Rules", "url": "https://www.michigan.gov/leo/bureaus-agencies/miosha/divisions/technical-services-division/rad-safety/radiation-safety-rules2"},
+      {"label": "Forms and Publications", "url": "https://www.michigan.gov/lara/0,4601,7-154-89334_11407_35791-59914--,00.html"}
+    ],
+    "pdfs": [
+      {"name": "Part 7 - Ionizing Radiation Rules", "file": "MI_Part7_Ionizing_Radiation_Rules.pdf"}
+    ]
+  },
+  "GA": {
+    "name": "Georgia",
+    "abbreviation": "GA",
+    "agency": "Georgia Department of Community Health (DCH) & Environmental Protection Division",
+    "agreementState": true,
+    "keyFeatures": [
+      "Georgia Rules and Regulations Chapter 111-8-90 for X-Ray",
+      "Dual oversight between DCH and EPD",
+      "Specific healing arts X-ray requirements"
+    ],
+    "contact": {
+      "website": "https://dch.georgia.gov/divisionsoffices/hfrd/facilities-provider-information/x-ray"
+    },
+    "links": [
+      {"label": "X-ray Information - DCH", "url": "https://dch.georgia.gov/divisionsoffices/hfrd/facilities-provider-information/x-ray"},
+      {"label": "Rules for X-Ray Chapter 111-8-90", "url": "https://rules.sos.state.ga.us/gac/111-8-90"},
+      {"label": "Radiation Protection Programs", "url": "https://epd.georgia.gov/air-protection-branch/air-branch-programs/radiation-protection-programs"}
+    ],
+    "pdfs": [
+      {"name": "Admin Code X-Rays in Healing Arts", "file": "GA_Admin_Code_Xrays_Healing_Arts.pdf"},
+      {"name": "Radioactive Materials (NRC Archive)", "file": "GA_Radioactive_Materials_NRC.pdf"}
+    ]
+  },
+  "MA": {
+    "name": "Massachusetts",
+    "abbreviation": "MA",
+    "agency": "Massachusetts Department of Public Health, Radiation Control Program",
+    "agreementState": true,
+    "keyFeatures": [
+      "105 CMR 120.400 - X-rays in Healing Arts",
+      "Comprehensive radiation control program",
+      "Specific fluoroscopy requirements"
+    ],
+    "contact": {
+      "website": "https://www.mass.gov/radiation-control"
+    },
+    "links": [
+      {"label": "Radiation Control", "url": "https://www.mass.gov/radiation-control"},
+      {"label": "Fluoroscopy Requirements", "url": "https://www.mass.gov/info-details/fluoroscopy"}
+    ],
+    "pdfs": []
+  },
+  "IL": {
+    "name": "Illinois",
+    "abbreviation": "IL",
+    "agency": "Illinois Emergency Management Agency",
+    "agreementState": true,
+    "keyFeatures": [
+      "Comprehensive radiation control regulations",
+      "Agreement State status",
+      "Personnel exposure monitoring requirements"
+    ],
+    "contact": {
+      "website": "https://www2.illinois.gov/iema/radiation/Pages/default.aspx"
+    },
+    "links": [
+      {"label": "U of IL Personnel Monitoring", "url": "https://drs.illinois.edu/Page/Programs/PersonnelExposureMonitoring"}
+    ],
+    "pdfs": [
+      {"name": "Emergency Management Agency Regs (NRC Archive)", "file": "IL_Emergency_Management_Agency_Regs_NRC.pdf"}
+    ]
+  },
+  "WA": {
+    "name": "Washington",
+    "abbreviation": "WA",
+    "agency": "Washington State Department of Health",
+    "agreementState": true,
+    "keyFeatures": [
+      "Comprehensive dosimetry requirements",
+      "X-ray equipment registration required",
+      "Facility plan review process"
+    ],
+    "contact": {
+      "website": "https://doh.wa.gov/community-and-environment/radiation"
+    },
+    "links": [
+      {"label": "Dosimetry Requirements", "url": "https://doh.wa.gov/community-and-environment/radiation/x-ray/x-ray-equipment-registration/x-ray-facility-plan-review/dosimetry-requirements"}
+    ],
+    "pdfs": []
+  },
+  "AL": {
+    "name": "Alabama",
+    "abbreviation": "AL",
+    "agency": "Alabama Department of Public Health",
+    "agreementState": true,
+    "keyFeatures": [
+      "Comprehensive medical radiation safety manual",
+      "Agreement State status",
+      "State-specific radiation safety procedures"
+    ],
+    "contact": {
+      "website": "https://www.alabamapublichealth.gov/radiation/"
+    },
+    "links": [
+      {"label": "Radiation Control", "url": "https://www.alabamapublichealth.gov/radiation/"}
+    ],
+    "pdfs": [
+      {"name": "Medical Radiation Safety Manual", "file": "AL_Medical_Radiation_Safety_Manual.pdf"}
+    ]
+  },
+  "MN": {
+    "name": "Minnesota",
+    "abbreviation": "MN",
+    "agency": "Minnesota Department of Health",
+    "agreementState": true,
+    "keyFeatures": [
+      "Lead apron guidance documents",
+      "X-ray optimization resources",
+      "Comprehensive radiation protection program"
+    ],
+    "contact": {
+      "website": "https://www.health.state.mn.us/communities/environment/radiation/"
+    },
+    "links": [
+      {"label": "Optimize X-ray", "url": "https://www.health.state.mn.us/communities/environment/radiation/xray/optimizexray.html"}
+    ],
+    "pdfs": [
+      {"name": "Lead Apron Guidance", "file": "MN_Lead_Apron_Guidance.pdf"}
+    ]
+  },
+  "_metadata": {
+    "lastUpdated": "2025-12-12",
+    "totalStates": 13,
+    "note": "Detailed data for states with collected regulations. All 50 states accessible via CRCPD directory.",
+    "crcpdDirectory": "https://www.crcpd.org/mpage/StateContactDirector"
+  }
+}

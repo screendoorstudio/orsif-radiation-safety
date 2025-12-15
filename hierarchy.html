@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regulatory Hierarchy - ORSIF Radiation Safety Guide</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav class="main-nav">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <span class="logo-text">ORSIF</span>
+                <span class="logo-subtitle">Radiation Safety Guide</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="states.html">Find Your State</a></li>
+                <li><a href="hierarchy.html" class="active">Regulatory Hierarchy</a></li>
+                <li><a href="resources.html">Resources &amp; PDFs</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Regulatory Hierarchy</h1>
+                <p class="section-intro">Radiation safety for healthcare workers is governed by multiple overlapping levels of authority. Click each level to expand and explore the organizations, regulations, and resources.</p>
+            </div>
+        </section>
+
+        <section class="hierarchy-page">
+            <div class="container">
+                <div id="hierarchy-tree" class="hierarchy-tree">
+                    <!-- Populated by JavaScript -->
+                    <div class="loading">Loading hierarchy data...</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quick Reference: Dose Limits -->
+        <section class="dose-reference">
+            <div class="container">
+                <h2>Quick Reference: Dose Limits</h2>
+                <p class="section-intro">Occupational radiation dose limits vary by regulatory authority. Always follow the most restrictive applicable limit.</p>
+
+                <div class="table-wrapper">
+                    <table class="dose-table" id="dose-table">
+                        <thead>
+                            <tr>
+                                <th>Category</th>
+                                <th>OSHA<br><small>29 CFR 1910.1096</small></th>
+                                <th>NRC<br><small>10 CFR Part 20</small></th>
+                                <th>ICRP<br><small>Recommendations</small></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>Whole Body</strong></td>
+                                <td>5 rem/year<br><small>(1.25 rem/quarter)</small></td>
+                                <td>5 rem/year<br><small>(50 mSv)</small></td>
+                                <td>20 mSv/year avg<br><small>(over 5 years)</small></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Eye Lens</strong></td>
+                                <td>1.25 rem/quarter</td>
+                                <td>15 rem/year<br><small>(150 mSv)</small></td>
+                                <td>20 mSv/year avg<br><small>(reduced from 150)</small></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Extremities</strong></td>
+                                <td>18.75 rem/quarter</td>
+                                <td>50 rem/year<br><small>(500 mSv)</small></td>
+                                <td>500 mSv/year</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Pregnant Worker</strong></td>
+                                <td>N/A</td>
+                                <td>0.5 rem total<br><small>(5 mSv, entire pregnancy)</small></td>
+                                <td>1 mSv<br><small>(after declaration)</small></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="alara-note">
+                    <h3>ALARA Principle</h3>
+                    <p><strong>As Low As Reasonably Achievable</strong> - Making every reasonable effort to maintain exposures to radiation as far below the dose limits as practical, consistent with the purpose for which the licensed activity is undertaken.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>ORSIF</h4>
+                    <p>Occupational Radiation Safety Information Framework - A comprehensive resource for healthcare workers in fluoroscopy.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Key Resources</h4>
+                    <ul>
+                        <li><a href="https://www.crcpd.org/mpage/StateContactDirector" target="_blank">CRCPD State Directory</a></li>
+                        <li><a href="https://www.osha.gov/ionizing-radiation" target="_blank">OSHA Ionizing Radiation</a></li>
+                        <li><a href="https://www.nrc.gov/reading-rm/doc-collections/cfr/part020/" target="_blank">NRC 10 CFR Part 20</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Disclaimer</h4>
+                    <p><small>This resource is for informational purposes only. Always verify current regulations with official sources and consult your institution's Radiation Safety Officer.</small></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 ORSIF. Information compiled from public sources.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+    <script src="js/hierarchy.js"></script>
+</body>
+</html>
