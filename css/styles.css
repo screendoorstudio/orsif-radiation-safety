@@ -167,7 +167,9 @@ section:nth-child(even) {
 
 .nav-logo img {
     height: 40px;
+    max-height: 40px;
     width: auto;
+    object-fit: contain;
 }
 
 .logo-text {
