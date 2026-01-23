@@ -1,0 +1,11 @@
+# ORSIF US Guidelines - U.S. Radiation Safety Regulations
+# https://guidelines-us.orsif.org
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://guidelines-us.orsif.org/sitemap.xml
+
+# Crawl-delay (optional, be generous to search engines)
+Crawl-delay: 1
